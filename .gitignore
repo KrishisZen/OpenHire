@@ -1,0 +1,41 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Environment and secrets
+.env
+.env.local
+*.pem
+
+# Databases and uploads
+*.db
+*.sqlite
+*.sqlite3
+backend/instance/
+!backend/instance/.gitkeep
+uploads/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+
+# Generated evaluation reports
+backend/scripts/reports/
+*.eval.json
+evaluation_report.json
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.log

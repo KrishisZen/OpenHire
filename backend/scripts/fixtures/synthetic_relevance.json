@@ -1,0 +1,45 @@
+{
+  "disclaimer": "Synthetic software smoke-test only. Not evidence of real-world hiring validity.",
+  "jobs": [
+    {
+      "id": "junior-python-analyst",
+      "title": "Junior Python Data Analyst (synthetic)",
+      "description": "Looking for a junior analyst who knows Python, pandas, SQL, Excel, and basic statistics. Data analysis of tabular datasets. Flask is a plus. Docker is required for local demos.",
+      "required_skills": ["Python", "SQL", "pandas", "Docker"],
+      "min_experience_years": 1
+    }
+  ],
+  "resumes": [
+    {
+      "id": "priya-nair-synthetic",
+      "candidate_name": "Priya Nair (synthetic)",
+      "text": "Priya Nair (synthetic). BCA graduate. 2 years of experience in data analysis. Built Python and pandas scripts, wrote SQL queries against PostgreSQL, used Excel dashboards, and containerized a Flask demo with Docker. Strong statistics coursework."
+    },
+    {
+      "id": "omar-hassan-synthetic",
+      "candidate_name": "Omar Hassan (synthetic)",
+      "text": "Omar Hassan (synthetic). B.Sc. Focused on React, JavaScript, HTML/CSS, and Git. Built marketing landing pages. Mentions Excel once. No Python or SQL projects."
+    },
+    {
+      "id": "mei-chen-synthetic",
+      "candidate_name": "Mei Chen (synthetic)",
+      "text": "Mei Chen (synthetic). MCA. 1 year of experience in machine learning. Python, scikit-learn, NumPy, pandas, SQL, Git, Linux. Studied NLP. Has not used Docker or Excel."
+    },
+    {
+      "id": "lucas-brandt-synthetic",
+      "candidate_name": "Lucas Brandt (synthetic)",
+      "text": "Lucas Brandt (synthetic). Career changer. Customer support background. Comfortable with Microsoft Excel and communication. No software engineering keywords besides Git tutorials."
+    }
+  ],
+  "graded_relevance": {
+    "junior-python-analyst": {
+      "priya-nair-synthetic": 3,
+      "mei-chen-synthetic": 2,
+      "omar-hassan-synthetic": 1,
+      "lucas-brandt-synthetic": 0
+    }
+  },
+  "binary_relevant": {
+    "junior-python-analyst": ["priya-nair-synthetic", "mei-chen-synthetic"]
+  }
+}

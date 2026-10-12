@@ -1,0 +1,2 @@
+# Optional matching engine. Not required to run TF-IDF.
+sentence-transformers>=3.0,<4

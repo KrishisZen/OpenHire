@@ -1,0 +1,19 @@
+# Optional PostgreSQL. SQLite remains the default local database.
+# Usage:
+#   docker compose up -d
+# Then set DATABASE_URL in backend/.env and run: flask --app run.py db upgrade
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: resume_matcher
+      POSTGRES_PASSWORD: resume_matcher
+      POSTGRES_DB: resume_matcher
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
